@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adlaout4"/>
+
+      <com.twotoasters.jazzylistview.JazzyGridView 
+        android:id="@+id/localpicture"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:numColumns="1"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="4dp"
+        android:columnWidth="100dp"
+        android:gravity="fill" 
+         />
+
+</LinearLayout>

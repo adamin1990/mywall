@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <android.support.v4.view.ViewPager  
+        android:id="@+id/apppaper"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" /> 
+         <RelativeLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:id="@+id/relative3"
+       >  
+   <RelativeLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:id="@+id/relative4"
+       >  
+       <ImageButton
+        android:id="@+id/appleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leftselecter"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+      /> 
+     
+          <ImageButton
+        android:id="@+id/appdivider2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/divider"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/appleft"
+        android:layout_marginLeft="60dp"
+        
+      />  <ImageButton
+      android:layout_toRightOf="@+id/appdivider2"
+        android:id="@+id/appsetwall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setselecter"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="0dp"
+      /> 
+      <ImageButton
+      
+        android:id="@+id/appdivider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/divider"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/appsetwall"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="60dp"
+      />
+        
+  <ImageButton
+        android:id="@+id/appright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/right"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_toRightOf="@+id/appdivider"
+        android:layout_marginLeft="0dp"
+      />
+ 
+    </RelativeLayout> 
+      <LinearLayout
+          android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative1"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/appadlaout6"/> 
+</RelativeLayout>  
+
+</FrameLayout>

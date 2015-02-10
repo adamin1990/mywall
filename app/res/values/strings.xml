@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">U</string>
+    <string name="action_settings">Settings</string>
+    <string name="description">Click on the Android icon to open the Navigation Drawer.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ad_unit_id">ca-app-pub-9647676735285842/1159338016</string>
+    <string name="no_app_to_share">No app installed to share data of type %s!</string>
+    <string name="no_share_type">No share type specified!</string>
+    <string name="error_occurred">Sorry, an error occurred.</string>
+    <string name="listviewheadertext">DropDown view more</string>
+    <string name="catURL">http://www.iiijiaba.com/WALLPAPER-BP?phonetype=getallcategory</string>
+    <string name="picURL">http://www.iiijiaba.com/WALLPAPER-BP?phonetype=getpicbycat</string>
+    <string name="dear">Dear user, hello!</string>
+    <string name="rotate">Rotate</string>
+    <string name="exit">Exit</string>
+    <string name="notice">Do you like this app? If you like, please give us five-star rating, so that we develop more and better free apps for you to use, Thank you for your support!!</string>
+
+</resources>

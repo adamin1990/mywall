@@ -1,0 +1,4 @@
+侧边栏壁纸  
+项目依赖：
+sherlocknavigationdrawer依赖actionbarsherlock
+主程序依赖 jazzylibrary  sherlocknavigationdrawer  和 googleservice
